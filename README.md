@@ -131,7 +131,7 @@ org 100h
 
 ## Programs For Logical Operators
 
-## AND
+### AND
 ```
 org 100h
 mov bx,1000h;
@@ -139,20 +139,20 @@ and bx,1111h;
 mov [0040h+02],bx;
 ret
 ```
-## Output
+### Output
 ![and](https://github.com/user-attachments/assets/ff66e0fc-187b-403b-ac56-b72ba597ac10)
 
-## OR
+### OR
 ```
 MOV SI,0532H;
 MOV AX,0A32H;
 MOV BX,0B13H;
 OR AX,BX;
 ```
-## Output
+### Output
 ![OR](https://github.com/user-attachments/assets/1bdd3676-2e87-4120-9fc8-cb318b351b3d)
 
-## NOT
+### NOT
 
 ```
 org 100h
