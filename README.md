@@ -179,7 +179,7 @@ XOR AX,BX;
 ![xor](https://github.com/user-attachments/assets/f68073e0-8f38-4d76-8402-aefbaaacab82)
 
 ## Result :
-Thus, to write and execute ALP on fundamental arithmetic operations is successful.
+Thus, to write and execute ALP on fundamental arithmetic operations and Logical operations is successful.
 
 
  
