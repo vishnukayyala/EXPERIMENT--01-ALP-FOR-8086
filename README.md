@@ -1,5 +1,5 @@
 # EXPERIMENT--01-ALP-FOR-8086
-## Name : SAJITH AHAMED F
+## Name : SAJIH AHAMED F
 ## Roll no : 21223240144
 ## Date of experiment : 19/08/2024
 
