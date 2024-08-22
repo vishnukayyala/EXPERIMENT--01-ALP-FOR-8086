@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-## Name : SAJITH AHAMED F
-## Roll no : 21223240144
-## Date of experiment : 19/08/2024
+## Name : VISHNU KM
+## Roll no :212223240185
+## Date of experiment : 22.8.24
 
 
 
@@ -131,6 +131,16 @@ org 100h
 
 ## Programs For Logical Operators
 
+### OR
+```
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+```
+### Output
+![OR](https://github.com/user-attachments/assets/1bdd3676-2e87-4120-9fc8-cb318b351b3d)
+
 ### AND
 ```
 org 100h
@@ -142,15 +152,18 @@ ret
 ### Output
 ![and](https://github.com/user-attachments/assets/ff66e0fc-187b-403b-ac56-b72ba597ac10)
 
-### OR
+## XOR
+
 ```
-MOV SI,0532H;
+MOV [SI+2],AX;
 MOV AX,0A32H;
 MOV BX,0B13H;
-OR AX,BX;
+XOR AX,BX;
 ```
-### Output
-![OR](https://github.com/user-attachments/assets/1bdd3676-2e87-4120-9fc8-cb318b351b3d)
+
+## Output
+![xor](https://github.com/user-attachments/assets/f68073e0-8f38-4d76-8402-aefbaaacab82)
+
 
 ### NOT
 
@@ -165,18 +178,6 @@ ret
 
 ## Output
 ![not](https://github.com/user-attachments/assets/9bd576d5-5b2f-418d-9af7-ed9f88e392c3)
-
-## XOR
-
-```
-MOV [SI+2],AX;
-MOV AX,0A32H;
-MOV BX,0B13H;
-XOR AX,BX;
-```
-
-## Output
-![xor](https://github.com/user-attachments/assets/f68073e0-8f38-4d76-8402-aefbaaacab82)
 
 ## Result :
 Thus, to write and execute ALP on fundamental arithmetic operations and Logical operations is successful.
